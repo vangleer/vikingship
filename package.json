@@ -1,0 +1,42 @@
+{
+  "name": "vikingship",
+  "version": "1.0.0",
+  "description": "React components library",
+  "author": "Viking Huang",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "keywords": [
+    "Component",
+    "UI",
+    "React"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "16.9.4",
+    "cross-env": "^7.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.1",
+    "typescript": "3.7.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
