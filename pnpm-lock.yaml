@@ -1,6 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@testing-library/jest-dom': ^4.2.4
+  '@testing-library/react': ^9.3.2
+  '@types/classnames': ^2.2.9
+  '@types/jest': 24.0.23
+  '@types/node': 12.12.14
   '@types/react': ^16.9.13
   '@types/react-dom': 16.9.4
   classnames: ^2.3.1
@@ -15,6 +20,11 @@ dependencies:
   classnames: registry.npmmirror.com/classnames/2.3.1
 
 devDependencies:
+  '@testing-library/jest-dom': registry.npmmirror.com/@testing-library/jest-dom/4.2.4
+  '@testing-library/react': registry.npmmirror.com/@testing-library/react/9.5.0_react-dom@16.14.0+react@16.14.0
+  '@types/classnames': registry.npmmirror.com/@types/classnames/2.3.1
+  '@types/jest': registry.npmmirror.com/@types/jest/24.0.23
+  '@types/node': registry.npmmirror.com/@types/node/12.12.14
   '@types/react': registry.npmmirror.com/@types/react/16.14.26
   '@types/react-dom': registry.npmmirror.com/@types/react-dom/16.9.4
   cross-env: registry.npmmirror.com/cross-env/7.0.3
@@ -2093,6 +2103,18 @@ packages:
       '@types/yargs': registry.npmmirror.com/@types/yargs/13.0.12
     dev: true
 
+  registry.npmmirror.com/@jest/types/25.5.0:
+    resolution: {integrity: sha512-OXD0RgQ86Tu3MazKo8bnrkDRaDXXMGUqd+kTtLtK1Zb7CRzQcaSRPPPV37SvYTdevXEBVxe0HXylEjs8ibkmCw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jest/types/-/types-25.5.0.tgz}
+    name: '@jest/types'
+    version: 25.5.0
+    engines: {node: '>= 8.3'}
+    dependencies:
+      '@types/istanbul-lib-coverage': registry.npmmirror.com/@types/istanbul-lib-coverage/2.0.4
+      '@types/istanbul-reports': registry.npmmirror.com/@types/istanbul-reports/1.1.2
+      '@types/yargs': registry.npmmirror.com/@types/yargs/15.0.14
+      chalk: registry.npmmirror.com/chalk/3.0.0
+    dev: true
+
   registry.npmmirror.com/@jridgewell/gen-mapping/0.3.1:
     resolution: {integrity: sha512-GcHwniMlA2z+WFPWuY8lp3fsza0I8xPFMWL5+n8LYyP6PSvPrXf4+n8stDHZY2DM0zy9sVkRDy1jDI4XGzYVqg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.1.tgz}
     name: '@jridgewell/gen-mapping'
@@ -2148,6 +2170,12 @@ packages:
     name: '@nodelib/fs.stat'
     version: 1.1.3
     engines: {node: '>= 6'}
+    dev: true
+
+  registry.npmmirror.com/@sheerun/mutationobserver-shim/0.3.3:
+    resolution: {integrity: sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz}
+    name: '@sheerun/mutationobserver-shim'
+    version: 0.3.3
     dev: true
 
   registry.npmmirror.com/@svgr/babel-plugin-add-jsx-attribute/4.2.0:
@@ -2287,6 +2315,55 @@ packages:
       - supports-color
     dev: true
 
+  registry.npmmirror.com/@testing-library/dom/6.16.0:
+    resolution: {integrity: sha512-lBD88ssxqEfz0wFL6MeUyyWZfV/2cjEZZV3YRpb2IoJRej/4f1jB0TzqIOznTpfR1r34CNesrubxwIlAQ8zgPA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@testing-library/dom/-/dom-6.16.0.tgz}
+    name: '@testing-library/dom'
+    version: 6.16.0
+    engines: {node: '>=8'}
+    dependencies:
+      '@babel/runtime': registry.npmmirror.com/@babel/runtime/7.18.3
+      '@sheerun/mutationobserver-shim': registry.npmmirror.com/@sheerun/mutationobserver-shim/0.3.3
+      '@types/testing-library__dom': registry.npmmirror.com/@types/testing-library__dom/6.14.0
+      aria-query: registry.npmmirror.com/aria-query/4.2.2
+      dom-accessibility-api: registry.npmmirror.com/dom-accessibility-api/0.3.0
+      pretty-format: registry.npmmirror.com/pretty-format/25.5.0
+      wait-for-expect: registry.npmmirror.com/wait-for-expect/3.0.2
+    dev: true
+
+  registry.npmmirror.com/@testing-library/jest-dom/4.2.4:
+    resolution: {integrity: sha512-j31Bn0rQo12fhCWOUWy9fl7wtqkp7In/YP2p5ZFyRuiiB9Qs3g+hS4gAmDWONbAHcRmVooNJ5eOHQDCOmUFXHg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@testing-library/jest-dom/-/jest-dom-4.2.4.tgz}
+    name: '@testing-library/jest-dom'
+    version: 4.2.4
+    engines: {node: '>=8', npm: '>=6'}
+    dependencies:
+      '@babel/runtime': registry.npmmirror.com/@babel/runtime/7.18.3
+      chalk: registry.npmmirror.com/chalk/2.4.2
+      css: registry.npmmirror.com/css/2.2.4
+      css.escape: registry.npmmirror.com/css.escape/1.5.1
+      jest-diff: registry.npmmirror.com/jest-diff/24.9.0
+      jest-matcher-utils: registry.npmmirror.com/jest-matcher-utils/24.9.0
+      lodash: registry.npmmirror.com/lodash/4.17.21
+      pretty-format: registry.npmmirror.com/pretty-format/24.9.0
+      redent: registry.npmmirror.com/redent/3.0.0
+    dev: true
+
+  registry.npmmirror.com/@testing-library/react/9.5.0_react-dom@16.14.0+react@16.14.0:
+    resolution: {integrity: sha512-di1b+D0p+rfeboHO5W7gTVeZDIK5+maEgstrZbWZSSvxDyfDRkkyBE1AJR5Psd6doNldluXlCWqXriUfqu/9Qg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@testing-library/react/-/react-9.5.0.tgz}
+    id: registry.npmmirror.com/@testing-library/react/9.5.0
+    name: '@testing-library/react'
+    version: 9.5.0
+    engines: {node: '>=8'}
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    dependencies:
+      '@babel/runtime': registry.npmmirror.com/@babel/runtime/7.18.3
+      '@testing-library/dom': registry.npmmirror.com/@testing-library/dom/6.16.0
+      '@types/testing-library__react': registry.npmmirror.com/@types/testing-library__react/9.1.3
+      react: registry.npmmirror.com/react/16.14.0
+      react-dom: registry.npmmirror.com/react-dom/16.14.0_react@16.14.0
+    dev: true
+
   registry.npmmirror.com/@types/babel__core/7.1.19:
     resolution: {integrity: sha512-WEOTgRsbYkvA/KCsDwVEGkd7WAr1e3g31VHQ8zy5gul/V1qKullU/BU5I68X5v7V3GnB9eotmom4v5a5gjxorw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/babel__core/-/babel__core-7.1.19.tgz}
     name: '@types/babel__core'
@@ -2322,6 +2399,15 @@ packages:
     version: 7.17.1
     dependencies:
       '@babel/types': registry.npmmirror.com/@babel/types/7.18.4
+    dev: true
+
+  registry.npmmirror.com/@types/classnames/2.3.1:
+    resolution: {integrity: sha512-zeOWb0JGBoVmlQoznvqXbE0tEC/HONsnoUNH19Hc96NFsTAwTXbTqb8FMYkru1F/iqp7a18Ws3nWJvtA1sHD1A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/classnames/-/classnames-2.3.1.tgz}
+    name: '@types/classnames'
+    version: 2.3.1
+    deprecated: This is a stub types definition. classnames provides its own type definitions, so you do not need this installed.
+    dependencies:
+      classnames: registry.npmmirror.com/classnames/2.3.1
     dev: true
 
   registry.npmmirror.com/@types/eslint-visitor-keys/1.0.0:
@@ -2362,6 +2448,14 @@ packages:
       '@types/istanbul-lib-report': registry.npmmirror.com/@types/istanbul-lib-report/3.0.0
     dev: true
 
+  registry.npmmirror.com/@types/jest/24.0.23:
+    resolution: {integrity: sha512-L7MBvwfNpe7yVPTXLn32df/EK+AMBFAFvZrRuArGs7npEWnlziUXK+5GMIUTI4NIuwok3XibsjXCs5HxviYXjg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/jest/-/jest-24.0.23.tgz}
+    name: '@types/jest'
+    version: 24.0.23
+    dependencies:
+      jest-diff: registry.npmmirror.com/jest-diff/24.9.0
+    dev: true
+
   registry.npmmirror.com/@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/json-schema/-/json-schema-7.0.11.tgz}
     name: '@types/json-schema'
@@ -2372,6 +2466,12 @@ packages:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/minimatch/-/minimatch-3.0.5.tgz}
     name: '@types/minimatch'
     version: 3.0.5
+    dev: true
+
+  registry.npmmirror.com/@types/node/12.12.14:
+    resolution: {integrity: sha512-u/SJDyXwuihpwjXy7hOOghagLEV1KdAST6syfnOk6QZAMzZuWZqXy5aYYZbh8Jdpd4escVFP0MvftHNDb9pruA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-12.12.14.tgz}
+    name: '@types/node'
+    version: 12.12.14
     dev: true
 
   registry.npmmirror.com/@types/node/17.0.41:
@@ -2428,6 +2528,33 @@ packages:
     version: 1.0.1
     dev: true
 
+  registry.npmmirror.com/@types/testing-library__dom/6.14.0:
+    resolution: {integrity: sha512-sMl7OSv0AvMOqn1UJ6j1unPMIHRXen0Ita1ujnMX912rrOcawe4f7wu0Zt9GIQhBhJvH2BaibqFgQ3lP+Pj2hA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/testing-library__dom/-/testing-library__dom-6.14.0.tgz}
+    name: '@types/testing-library__dom'
+    version: 6.14.0
+    dependencies:
+      pretty-format: registry.npmmirror.com/pretty-format/24.9.0
+    dev: true
+
+  registry.npmmirror.com/@types/testing-library__dom/7.5.0:
+    resolution: {integrity: sha512-mj1aH4cj3XUpMEgVpognma5kHVtbm6U6cHZmEFzCRiXPvKkuHrFr3+yXdGLXvfFRBaQIVshPGHI+hGTOJlhS/g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/testing-library__dom/-/testing-library__dom-7.5.0.tgz}
+    name: '@types/testing-library__dom'
+    version: 7.5.0
+    deprecated: This is a stub types definition. testing-library__dom provides its own type definitions, so you do not need this installed.
+    dependencies:
+      '@testing-library/dom': registry.npmmirror.com/@testing-library/dom/6.16.0
+    dev: true
+
+  registry.npmmirror.com/@types/testing-library__react/9.1.3:
+    resolution: {integrity: sha512-iCdNPKU3IsYwRK9JieSYAiX0+aYDXOGAmrC/3/M7AqqSDKnWWVv07X+Zk1uFSL7cMTUYzv4lQRfohucEocn5/w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/testing-library__react/-/testing-library__react-9.1.3.tgz}
+    name: '@types/testing-library__react'
+    version: 9.1.3
+    dependencies:
+      '@types/react-dom': registry.npmmirror.com/@types/react-dom/16.9.4
+      '@types/testing-library__dom': registry.npmmirror.com/@types/testing-library__dom/7.5.0
+      pretty-format: registry.npmmirror.com/pretty-format/25.5.0
+    dev: true
+
   registry.npmmirror.com/@types/yargs-parser/21.0.0:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/yargs-parser/-/yargs-parser-21.0.0.tgz}
     name: '@types/yargs-parser'
@@ -2438,6 +2565,14 @@ packages:
     resolution: {integrity: sha512-qCxJE1qgz2y0hA4pIxjBR+PelCH0U5CK1XJXFwCNqfmliatKp47UCXXE9Dyk1OXBDLvsCF57TqQEJaeLfDYEOQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/yargs/-/yargs-13.0.12.tgz}
     name: '@types/yargs'
     version: 13.0.12
+    dependencies:
+      '@types/yargs-parser': registry.npmmirror.com/@types/yargs-parser/21.0.0
+    dev: true
+
+  registry.npmmirror.com/@types/yargs/15.0.14:
+    resolution: {integrity: sha512-yEJzHoxf6SyQGhBhIYGXQDSCkJjB6HohDShto7m8vaKg9Yp0Yn8+71J9eakh2bnPg6BfsH9PRMhiRTZnd4eXGQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/yargs/-/yargs-15.0.14.tgz}
+    name: '@types/yargs'
+    version: 15.0.14
     dependencies:
       '@types/yargs-parser': registry.npmmirror.com/@types/yargs-parser/21.0.0
     dev: true
@@ -2992,6 +3127,16 @@ packages:
       commander: registry.npmmirror.com/commander/2.20.3
     dev: true
 
+  registry.npmmirror.com/aria-query/4.2.2:
+    resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/aria-query/-/aria-query-4.2.2.tgz}
+    name: aria-query
+    version: 4.2.2
+    engines: {node: '>=6.0'}
+    dependencies:
+      '@babel/runtime': registry.npmmirror.com/@babel/runtime/7.18.3
+      '@babel/runtime-corejs3': registry.npmmirror.com/@babel/runtime-corejs3/7.18.3
+    dev: true
+
   registry.npmmirror.com/arity-n/1.0.4:
     resolution: {integrity: sha512-fExL2kFDC1Q2DUOx3whE/9KoN66IzkY4b4zUHUBFM1ojEYjZZYDcUW3bek/ufGionX9giIKDC5redH2IlGqcQQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/arity-n/-/arity-n-1.0.4.tgz}
     name: arity-n
@@ -3370,7 +3515,7 @@ packages:
     name: babel-plugin-macros
     version: 2.8.0
     dependencies:
-      '@babel/runtime': registry.npmmirror.com/@babel/runtime/7.9.0
+      '@babel/runtime': registry.npmmirror.com/@babel/runtime/7.18.3
       cosmiconfig: registry.npmmirror.com/cosmiconfig/6.0.0
       resolve: registry.npmmirror.com/resolve/1.22.0
     dev: true
@@ -4063,6 +4208,16 @@ packages:
       supports-color: registry.npmmirror.com/supports-color/5.5.0
     dev: true
 
+  registry.npmmirror.com/chalk/3.0.0:
+    resolution: {integrity: sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/chalk/-/chalk-3.0.0.tgz}
+    name: chalk
+    version: 3.0.0
+    engines: {node: '>=8'}
+    dependencies:
+      ansi-styles: registry.npmmirror.com/ansi-styles/4.3.0
+      supports-color: registry.npmmirror.com/supports-color/7.2.0
+    dev: true
+
   registry.npmmirror.com/chalk/4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/chalk/-/chalk-4.1.2.tgz}
     name: chalk
@@ -4161,7 +4316,6 @@ packages:
     resolution: {integrity: sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/classnames/-/classnames-2.3.1.tgz}
     name: classnames
     version: 2.3.1
-    dev: false
 
   registry.npmmirror.com/clean-css/4.2.4:
     resolution: {integrity: sha512-EJUDT7nDVFDvaQgAo2G/PJvxmp1o/c6iXLbswsBbUFXi1Nr+AjA2cKmfbKDMjMvzEe75g3P6JkaDDAKk96A85A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/clean-css/-/clean-css-4.2.4.tgz}
@@ -4835,6 +4989,12 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
+  registry.npmmirror.com/css.escape/1.5.1:
+    resolution: {integrity: sha512-YUifsXXuknHlUsmlgyY0PKzgPOr7/FjCePfHNt0jxm83wHZi44VDMQ7/fGNkjY3/jV1MC+1CmZbaHzugyeRtpg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/css.escape/-/css.escape-1.5.1.tgz}
+    name: css.escape
+    version: 1.5.1
+    dev: true
+
   registry.npmmirror.com/css/2.2.4:
     resolution: {integrity: sha512-oUnjmWpy0niI3x/mPL8dVEI1l7MnG3+HHyRPHf+YFSbK+svOhXpmSOcDURUh2aOCgl2grzrOPt1nHLuCVFULLw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/css/-/css-2.2.4.tgz}
     name: css
@@ -5311,6 +5471,12 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       esutils: registry.npmmirror.com/esutils/2.0.3
+    dev: true
+
+  registry.npmmirror.com/dom-accessibility-api/0.3.0:
+    resolution: {integrity: sha512-PzwHEmsRP3IGY4gv/Ug+rMeaTIyTJvadCb+ujYXYeIylbHJezIyNToe8KfEgHTCEYyC+/bUghYOGg8yMGlZ6vA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dom-accessibility-api/-/dom-accessibility-api-0.3.0.tgz}
+    name: dom-accessibility-api
+    version: 0.3.0
     dev: true
 
   registry.npmmirror.com/dom-converter/0.2.0:
@@ -9429,6 +9595,13 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
+  registry.npmmirror.com/min-indent/1.0.1:
+    resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/min-indent/-/min-indent-1.0.1.tgz}
+    name: min-indent
+    version: 1.0.1
+    engines: {node: '>=4'}
+    dev: true
+
   registry.npmmirror.com/mini-css-extract-plugin/0.9.0_webpack@4.42.0:
     resolution: {integrity: sha512-lp3GeY7ygcgAmVIcRPBVhIkf8Us7FZjA+ILpal44qLdSu11wmjKQ3d9k15lfD7pO4esu9eUIAW7qiYIBppv40A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mini-css-extract-plugin/-/mini-css-extract-plugin-0.9.0.tgz}
     id: registry.npmmirror.com/mini-css-extract-plugin/0.9.0
@@ -11512,6 +11685,18 @@ packages:
       react-is: registry.npmmirror.com/react-is/16.13.1
     dev: true
 
+  registry.npmmirror.com/pretty-format/25.5.0:
+    resolution: {integrity: sha512-kbo/kq2LQ/A/is0PQwsEHM7Ca6//bGPPvU6UnsdDRSKTWxT/ru/xb88v4BJf6a69H+uTytOEsTusT9ksd/1iWQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pretty-format/-/pretty-format-25.5.0.tgz}
+    name: pretty-format
+    version: 25.5.0
+    engines: {node: '>= 8.3'}
+    dependencies:
+      '@jest/types': registry.npmmirror.com/@jest/types/25.5.0
+      ansi-regex: registry.npmmirror.com/ansi-regex/5.0.1
+      ansi-styles: registry.npmmirror.com/ansi-styles/4.3.0
+      react-is: registry.npmmirror.com/react-is/16.13.1
+    dev: true
+
   registry.npmmirror.com/process-nextick-args/2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz}
     name: process-nextick-args
@@ -12046,6 +12231,16 @@ packages:
     dependencies:
       indent-string: registry.npmmirror.com/indent-string/2.1.0
       strip-indent: registry.npmmirror.com/strip-indent/1.0.1
+    dev: true
+
+  registry.npmmirror.com/redent/3.0.0:
+    resolution: {integrity: sha512-6tDA8g98We0zd0GvVeMT9arEOnTw9qM03L9cJXaCjrip1OO764RDBLBfrB4cwzNGDj5OA5ioymC9GkizgWJDUg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/redent/-/redent-3.0.0.tgz}
+    name: redent
+    version: 3.0.0
+    engines: {node: '>=8'}
+    dependencies:
+      indent-string: registry.npmmirror.com/indent-string/4.0.0
+      strip-indent: registry.npmmirror.com/strip-indent/3.0.0
     dev: true
 
   registry.npmmirror.com/regenerate-unicode-properties/10.0.1:
@@ -13447,6 +13642,15 @@ packages:
       get-stdin: registry.npmmirror.com/get-stdin/4.0.1
     dev: true
 
+  registry.npmmirror.com/strip-indent/3.0.0:
+    resolution: {integrity: sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/strip-indent/-/strip-indent-3.0.0.tgz}
+    name: strip-indent
+    version: 3.0.0
+    engines: {node: '>=8'}
+    dependencies:
+      min-indent: registry.npmmirror.com/min-indent/1.0.1
+    dev: true
+
   registry.npmmirror.com/strip-json-comments/3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz}
     name: strip-json-comments
@@ -14237,6 +14441,12 @@ packages:
       domexception: registry.npmmirror.com/domexception/1.0.1
       webidl-conversions: registry.npmmirror.com/webidl-conversions/4.0.2
       xml-name-validator: registry.npmmirror.com/xml-name-validator/3.0.0
+    dev: true
+
+  registry.npmmirror.com/wait-for-expect/3.0.2:
+    resolution: {integrity: sha512-cfS1+DZxuav1aBYbaO/kE06EOS8yRw7qOFoD3XtjTkYvCvh3zUvNST8DXK/nPaeqIzIv3P3kL3lRJn8iwOiSag==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wait-for-expect/-/wait-for-expect-3.0.2.tgz}
+    name: wait-for-expect
+    version: 3.0.2
     dev: true
 
   registry.npmmirror.com/walker/1.0.8:
