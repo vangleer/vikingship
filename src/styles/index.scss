@@ -7,8 +7,14 @@
 // mixin
 @import 'mixin.scss';
 
+// animation
+@import "animation";
+
 // button
 @import '../components/button/style.scss';
 
 // menu
-@import '../components/menu/style.scss' 
+@import '../components/menu/style.scss';
+
+// icon
+@import '../components/icon/style.scss';

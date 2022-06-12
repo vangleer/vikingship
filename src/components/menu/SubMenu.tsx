@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react'
 import { n } from '../../utils'
 import { MenuContext } from './Menu'
 import { MenuItemProps } from './MenuItem'
+import Transition from '../transition/Transition'
+import Icon from '../icon/Icon'
 export interface SubMenuProps {
   index?: string
   title?: string
@@ -14,7 +16,9 @@ const SubMenu: React.FC<SubMenuProps> = ({ index, title, className, children }) 
   const isOpened = (index && context.mode === 'vertical') ? openSubMenus.includes(index) : false
   const [open, setOpen] = useState(isOpened)
   const classes = n('menu-item submenu-item', className, {
-    'is-active': context.index === index
+    'is-active': context.index === index,
+    'is-open': open,
+    'is-vertical': context.mode === 'vertical'
   })
 
   const handleClick = (e: React.MouseEvent) => {
@@ -53,15 +57,23 @@ const SubMenu: React.FC<SubMenuProps> = ({ index, title, className, children }) 
     })
 
     return (
-      <ul className={subMenuClasses}>
-        {childrenComponent}
-      </ul>
+      <Transition
+        in={open}
+        timeout={300}
+        animation='zoom-in-top'
+      >
+        <ul className={subMenuClasses}>
+          {childrenComponent}
+        </ul>
+      </Transition>
+      
     )
   }
   return (
     <li key={index} className={classes} {...hoverEvents}>
       <div className='submenu-title' { ...clickEvents }>
-        {title}
+        <div>{title}</div>
+        <Icon icon='angle-down' className='arrow-icon' />
       </div>
       {renderChildren()}
     </li>

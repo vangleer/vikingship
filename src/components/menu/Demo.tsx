@@ -5,7 +5,7 @@ import SubMenu from './SubMenu'
 const Demo: React.FC = () => {
   return (
     <>
-      <Menu defaultIndex={'0'} defaultOpenSubMenus={['2']} mode='vertical' data-testid="test-menu" onSelect={(index) => console.log(index)}>
+      <Menu defaultIndex={'0'} defaultOpenSubMenus={['2']} data-testid="test-menu" onSelect={(index) => console.log(index)}>
         <MenuItem index={'0'}>
           cool link 1
         </MenuItem>
