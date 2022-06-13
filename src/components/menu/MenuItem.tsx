@@ -7,7 +7,7 @@ export interface MenuItemProps {
   disabled?: boolean
   style?: React.CSSProperties
 }
-const MenuItem: React.FC<MenuItemProps> = (props) => {
+export const MenuItem: React.FC<MenuItemProps> = (props) => {
   const {
     index,
     className,
@@ -33,4 +33,4 @@ const MenuItem: React.FC<MenuItemProps> = (props) => {
   )
 }
 MenuItem.displayName = 'MenuItem'
-export default MenuItem
+export default MenuItem;

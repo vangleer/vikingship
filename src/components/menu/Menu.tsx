@@ -20,7 +20,7 @@ interface IMenuContext {
 }
 export const MenuContext = createContext<IMenuContext>({ index: '0' })
 
-const Menu: React.FC<MenuProps> = (props) => {
+export const Menu: React.FC<MenuProps> = (props) => {
   const {
     defaultIndex,
     className,
@@ -75,4 +75,4 @@ Menu.defaultProps = {
   defaultOpenSubMenus: []
 }
 
-export default Menu
+export default Menu;
