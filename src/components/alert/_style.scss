@@ -1,0 +1,34 @@
+.alert {
+  box-sizing: border-box;
+  margin: 0;
+  color: #000000d9;
+  font-size: 15px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  word-wrap: break-word;
+  border-radius: 2px;
+  &-close-icon {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  &-description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@each $key, $val in $theme-colors {
+  .alert-#{$key} {
+    border: 1px solid $val;
+    background-color: lighten($color: $val, $amount: 45%);
+  }
+}
